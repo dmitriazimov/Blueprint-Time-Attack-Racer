@@ -1,0 +1,857 @@
+﻿[2018.01.09-19.36.11:337][  0]Log file open, 01/09/18 11:36:11
+[2018.01.09-19.36.11:337][  0]LogInit:Display: Running engine for game: TP_Voiture_02
+[2018.01.09-19.36.11:337][  0]LogPlatformFile: Not using cached read wrapper
+[2018.01.09-19.36.11:337][  0]LogInit:Display: RandInit(108937966) SRandInit(108937967).
+[2018.01.09-19.36.11:337][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2018.01.09-19.36.11:337][  0]LogStats: Stats thread started at 0.072015
+[2018.01.09-19.36.11:337][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2018.01.09-19.36.11:337][  0]LogInit: API Version: 2758231
+[2018.01.09-19.36.11:337][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2018.01.09-19.36.11:337][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2018.01.09-19.36.11:337][  0]LogInit: Build Configuration: Development
+[2018.01.09-19.36.11:337][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2018.01.09-19.36.11:337][  0]LogInit: Command line: -EpicPortal 
+[2018.01.09-19.36.11:337][  0]LogInit: Base directory: C:/Unreal/UE_4.10/Engine/Binaries/Win64/
+[2018.01.09-19.36.11:337][  0]LogInit: Rocket: 1
+[2018.01.09-19.36.11:341][  0]LogInit: Using libcurl 7.41.0
+[2018.01.09-19.36.11:341][  0]LogInit:  - built for x86_64-pc-win32
+[2018.01.09-19.36.11:341][  0]LogInit:  - supports SSL with WinSSL
+[2018.01.09-19.36.11:341][  0]LogInit:  - other features:
+[2018.01.09-19.36.11:341][  0]LogInit:      CURL_VERSION_SSL
+[2018.01.09-19.36.11:341][  0]LogInit:      CURL_VERSION_IPV6
+[2018.01.09-19.36.11:341][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2018.01.09-19.36.11:341][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2018.01.09-19.36.11:341][  0]LogInit:      CURL_VERSION_IDN
+[2018.01.09-19.36.11:341][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2018.01.09-19.36.11:341][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2018.01.09-19.36.11:341][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2018.01.09-19.36.11:341][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2018.01.09-19.36.11:341][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2018.01.09-19.36.11:344][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2018.01.09-19.36.11:348][  0]LogInit: Object subsystem initialized
+[2018.01.09-19.36.11:348][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.09-19.36.11:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.09-19.36.11:353][  0]LogInit: Computer: DESKTOP-NMN5BOE
+[2018.01.09-19.36.11:353][  0]LogInit: User: dmitri
+[2018.01.09-19.36.11:353][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.01.09-19.36.11:353][  0]LogInit: High frequency timer resolution =3.117188 MHz
+[2018.01.09-19.36.11:353][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.09-19.36.11:353][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.09-19.36.11:353][  0]LogMemory: Process Physical Memory: 58.44 MB used, 58.44 MB peak
+[2018.01.09-19.36.11:353][  0]LogMemory: Process Virtual Memory: 58.50 MB used, 58.50 MB peak
+[2018.01.09-19.36.11:353][  0]LogMemory: Physical Memory: 3365.86 MB used, 16344.29 MB total
+[2018.01.09-19.36.11:353][  0]LogMemory: Virtual Memory: 419.81 MB used, 134217728.00 MB total
+[2018.01.09-19.36.11:377][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.01.09-19.36.11:645][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 1080 Ti (Feature Level 11_0)
+[2018.01.09-19.36.11:645][  0]LogD3D11RHI: Adapter has 11132MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 1 output[s]
+[2018.01.09-19.36.11:647][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2018.01.09-19.36.11:647][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 0 output[s]
+[2018.01.09-19.36.11:647][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2018.01.09-19.36.11:651][  0]LogD3D11RHI: !Direct3DDevice
+[2018.01.09-19.36.11:651][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.09-19.36.11:668][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.09-19.36.11:682][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Intermediate/Shaders/WorkingDirectory/4920/).
+[2018.01.09-19.36.11:682][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dmitri/AppData/Local/Temp/UnrealShaderWorkingDir/25020AFC4B91ACF3C348A6A27EA4FF9E/'.
+[2018.01.09-19.36.11:682][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.09-19.36.12:182][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.09-19.36.12:184][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.09-19.36.12:187][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.09-19.36.12:189][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.09-19.36.12:192][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.09-19.36.12:194][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.09-19.36.12:195][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.09-19.36.12:197][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.09-19.36.12:199][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.09-19.36.12:200][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.09-19.36.12:202][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.09-19.36.12:206][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.09-19.36.12:206][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.09-19.36.12:207][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.09-19.36.12:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.09-19.36.12:223][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.09-19.36.12:224][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.09-19.36.12:226][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.09-19.36.12:226][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.09-19.36.12:268][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.09-19.36.12:291][  0]LogDerivedDataCache: Loaded boot cache 0.02s 41MB C:/Users/dmitri/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2018.01.09-19.36.12:291][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dmitri/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2018.01.09-19.36.12:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.09-19.36.12:291][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.09-19.36.12:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.09-19.36.12:291][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.09-19.36.12:324][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.09-19.36.12:336][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dmitri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.09-19.36.12:441][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.09-19.36.12:443][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2018.01.09-19.36.12:510][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.01.09-19.36.12:510][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.09-19.36.12:630][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.09-19.36.13:068][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.09-19.36.13:151][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2018.01.09-19.36.13:244][  0]SourceControl: Info Source control is disabled
+[2018.01.09-19.36.13:245][  0]SourceControl: Info Source control is disabled
+[2018.01.09-19.36.13:250][  0]SourceControl: Info Source control is disabled
+[2018.01.09-19.36.13:256][  0]SourceControl: Info Source control is disabled
+[2018.01.09-19.36.13:378][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2018.01.09-19.36.13:378][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2018.01.09-19.36.13:415][  0]LogEngine: Initializing Engine...
+[2018.01.09-19.36.13:417][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2018.01.09-19.36.13:418][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2018.01.09-19.36.13:485][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.01.09-19.36.13:492][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-19.36.13:506][  0]LogInit: FAudioDevice initialized.
+[2018.01.09-19.36.13:519][  0]LogDerivedDataCache: Saved boot cache 0.01s 41MB C:/Users/dmitri/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2018.01.09-19.36.13:521][  0]LogInit: Texture streaming: Enabled
+[2018.01.09-19.36.13:524][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2018.01.09-19.36.13:524][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2018.01.09-19.36.13:524][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9c7ce9494c93f0313095a4b4785cabea|fd12b88f12004f81a579fe51d038ddaa|53c13de0-72f6-4cab-8c9b-04e1b78238de
+[2018.01.09-19.36.13:524][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2018.01.09-19.36.13:530][  0]LogInit: Transaction tracking system initialized
+[2018.01.09-19.36.13:543][  0]BlueprintLog: New page: Editor Load
+[2018.01.09-19.36.13:580][  0]LocalizationService: Info Localization service is disabled
+[2018.01.09-19.36.13:620][  0]LogConsoleResponse:Display: 
+[2018.01.09-19.36.13:688][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.01.09-19.36.13:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/' took 0.01s
+[2018.01.09-19.36.13:716][  0]SourceControl: Info Source control is disabled
+[2018.01.09-19.36.13:716][  0]Cmd: MAP LOAD FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.09-19.36.13:717][  0]LightingResults: New page: Lighting Build
+[2018.01.09-19.36.13:719][  0]MapCheck: New page: Map Check
+[2018.01.09-19.36.13:719][  0]LightingResults: New page: Lighting Build
+[2018.01.09-19.36.13:725][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106624A36A0
+[2018.01.09-19.36.14:349][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2018.01.09-19.36.14:382][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.09-19.36.14:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.09-19.36.14:414][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.544ms to complete.
+[2018.01.09-19.36.14:414][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 0.698
+[2018.01.09-19.36.14:515][  0]LogCollectionManager: Loaded 0 collections in 0.000879 seconds
+[2018.01.09-19.36.14:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/Collections/' took 0.01s
+[2018.01.09-19.36.14:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Developers/dmitri/Collections/' took 0.01s
+[2018.01.09-19.36.14:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Collections/' took 0.01s
+[2018.01.09-19.36.14:567][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.09-19.36.14:572][  0]LogContentBrowser: Native class hierarchy populated in 0.0052 seconds. Added 1893 classes and 338 folders.
+[2018.01.09-19.36.14:580][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.09-19.36.14:669][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.09-19.36.14:677][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.09-19.36.14:726][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.09-19.36.14:736][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.09-19.36.14:760][  0]LogLoad: Full Startup: 3.72 seconds (BP compile: 0.16 seconds)
+[2018.01.09-19.36.14:769][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.09-19.36.14:771][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2018.01.09-19.36.14:815][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.09-19.36.14:911][  0]LogRenderer: Reallocating scene render targets to support 1476x776 (Frame:2).
+[2018.01.09-19.36.14:987][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2018.01.09-19.36.15:104][  4]LogAssetRegistry: Asset discovery search completed in 1.9638 seconds
+[2018.01.09-19.36.15:104][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.09-19.36.15:104][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2018.01.09-19.36.29:524][713]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-19.36.29:526][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_1.ParticleSystem
+[2018.01.09-19.36.29:526][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_3.ParticleSystem
+[2018.01.09-19.36.29:527][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_4.ParticleSystem
+[2018.01.09-19.36.29:527][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_5.ParticleSystem
+[2018.01.09-19.36.29:527][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_6.ParticleSystem
+[2018.01.09-19.36.29:528][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_1.ParticleSystem
+[2018.01.09-19.36.29:528][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_1.ParticleSystem
+[2018.01.09-19.36.29:528][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_3.ParticleSystem
+[2018.01.09-19.36.29:528][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_3.ParticleSystem
+[2018.01.09-19.36.29:528][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_4.ParticleSystem
+[2018.01.09-19.36.29:529][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_4.ParticleSystem
+[2018.01.09-19.36.29:529][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_5.ParticleSystem
+[2018.01.09-19.36.29:529][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_5.ParticleSystem
+[2018.01.09-19.36.29:529][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_6.ParticleSystem
+[2018.01.09-19.36.29:529][713]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap:PersistentLevel.CheckPoint_C_6.ParticleSystem
+[2018.01.09-19.36.29:561][713]Cmd: MAP LOAD FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.09-19.36.29:561][713]LightingResults: New page: Lighting Build
+[2018.01.09-19.36.29:571][713]LoadErrors: New page: Loading map: LooptyLoopMap.umap
+[2018.01.09-19.36.29:573][713]MapCheck: New page: Map Check
+[2018.01.09-19.36.29:573][713]LightingResults: New page: Lighting Build
+[2018.01.09-19.36.29:581][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000010663F45DA0
+[2018.01.09-19.36.29:595][713]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.09-19.36.29:608][713]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.09-19.36.29:640][713]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.483ms to complete.
+[2018.01.09-19.36.29:640][713]LogFileHelpers: Loading map 'LooptyLoopMap' took 0.079
+[2018.01.09-19.36.29:736][714]Cmd: UpdateLandscapeEditorData -warnings
+[2018.01.09-19.36.29:737][714]Cmd: UpdateLandscapeEditorData
+[2018.01.09-19.37.43:658][974]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.09-19.37.43:919][974]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2018.01.09-19.38.07:966][690]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_7.CanvasPanel_0
+[2018.01.09-19.38.07:966][690]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_0.WidgetTree_6.CanvasPanel_0
+[2018.01.09-19.38.07:966][690]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_5.CanvasPanel_0
+[2018.01.09-19.38.07:966][690]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_4.CanvasPanel_0
+[2018.01.09-19.38.07:966][690]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_1.WidgetTree_8.CanvasPanel_0
+[2018.01.09-19.38.07:966][690]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.GameHUD).  Import failed...
+[2018.01.09-19.38.07:966][690]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2018.01.09-19.40.38:123][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_9.VerticalBox_2
+[2018.01.09-19.40.38:123][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_2.WidgetTree_10.VerticalBox_2
+[2018.01.09-19.40.38:123][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_11.VerticalBox_2
+[2018.01.09-19.40.38:123][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_3.WidgetTree_12.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_13.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_4.WidgetTree_14.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_15.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_5.WidgetTree_16.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_17.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_6.WidgetTree_18.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_19.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_7.WidgetTree_20.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_21.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_8.WidgetTree_22.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_23.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_9.WidgetTree_24.VerticalBox_2
+[2018.01.09-19.40.38:124][676]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2.VerticalBoxSlot_5) from referencer (VerticalBox /Engine/UMG/Editor/Transient.BestOveralTime).  Import failed...
+[2018.01.09-19.40.38:124][676]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_5''
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_9.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_2.WidgetTree_10.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_11.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_3.WidgetTree_12.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_13.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_4.WidgetTree_14.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_15.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_5.WidgetTree_16.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_17.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_6.WidgetTree_18.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_19.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_7.WidgetTree_20.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_21.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_8.WidgetTree_22.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_23.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_9.WidgetTree_24.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_25.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_10.WidgetTree_26.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_27.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_11.WidgetTree_28.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_29.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_12.WidgetTree_30.VerticalBox_2
+[2018.01.09-19.41.20:130][682]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2.VerticalBoxSlot_7) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_26).  Import failed...
+[2018.01.09-19.41.20:130][682]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_7''
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_9.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_2.WidgetTree_10.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_11.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_3.WidgetTree_12.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_13.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_4.WidgetTree_14.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_15.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_5.WidgetTree_16.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_17.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_6.WidgetTree_18.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_19.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_7.WidgetTree_20.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_21.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_8.WidgetTree_22.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_23.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_9.WidgetTree_24.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_25.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_10.WidgetTree_26.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_27.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_11.WidgetTree_28.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_29.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_12.WidgetTree_30.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_31.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:HUD_C_13.WidgetTree_32.VerticalBox_2
+[2018.01.09-19.41.23:084][ 35]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2.VerticalBoxSlot_7) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_26).  Import failed...
+[2018.01.09-19.41.23:084][ 35]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_7''
+[2018.01.09-19.49.26:486][981]BlueprintLog: New page: Compile HUD
+[2018.01.09-19.49.26:558][981]BlueprintEditorCompileResults: Info [0795.52] Compile of HUD successful! [in 71 ms]
+[2018.01.09-19.49.27:112][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-19.49.27:138][ 45]LogSavePackage: Save=17.993139ms
+[2018.01.09-19.49.27:138][ 45]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUDA90323A04A9E896093551DA7CB4AE61C.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-19.49.27:140][ 45]LogSavePackage: Total save time: 27.825721ms
+[2018.01.09-19.49.27:140][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-19.51.10:322][747]BlueprintLog: New page: Compile HUD
+[2018.01.09-19.51.10:439][747]BlueprintEditorCompileResults: Info [0899.40] Compile of HUD successful! [in 116 ms]
+[2018.01.09-19.51.27:803][635]BlueprintLog: New page: Compile HUD
+[2018.01.09-19.51.27:861][635]BlueprintEditorCompileResults: Info [0916.82] Compile of HUD successful! [in 58 ms]
+[2018.01.09-19.51.29:220][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-19.51.29:240][797]LogSavePackage: Save=16.850443ms
+[2018.01.09-19.51.29:240][797]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUD564D723947A07C43A5DED1A9932B66C5.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-19.51.29:242][797]LogSavePackage: Total save time: 20.624999ms
+[2018.01.09-19.51.29:242][797]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-19.53.22:904][858]BlueprintLog: New page: Compile HUD
+[2018.01.09-19.53.23:026][858]BlueprintEditorCompileResults: Info [1031.98] Compile of HUD successful! [in 121 ms]
+[2018.01.09-19.54.04:362][815]BlueprintLog: New page: Compile HUD
+[2018.01.09-19.54.04:423][815]BlueprintEditorCompileResults: Info [1073.38] Compile of HUD successful! [in 61 ms]
+[2018.01.09-19.54.05:002][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-19.54.05:023][883]LogSavePackage: Save=18.482363ms
+[2018.01.09-19.54.05:023][883]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUDF73E472C4B1C64F021596BA1E84471DB.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-19.54.05:025][883]LogSavePackage: Total save time: 22.868365ms
+[2018.01.09-19.54.05:025][883]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_41.WidgetTree_155.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_29.WidgetTree_110.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_48:WidgetTree_145.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_160.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_1.WidgetTree_83.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_2.WidgetTree_10.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_34.WidgetTree_120.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_3.WidgetTree_12.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_156.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_4.WidgetTree_14.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_5.WidgetTree_16.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_33.WidgetTree_118.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_6.WidgetTree_18.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_42.WidgetTree_157.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_7.WidgetTree_20.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_32.WidgetTree_116.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_8.WidgetTree_22.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_9.WidgetTree_24.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_158.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_10.WidgetTree_26.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_31.WidgetTree_114.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_11.WidgetTree_28.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_43.WidgetTree_159.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_12.WidgetTree_30.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_30.WidgetTree_112.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_13.WidgetTree_32.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_31:WidgetTree_79.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_14.WidgetTree_34.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_HUD_C_0.WidgetTree_91.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_15.WidgetTree_36.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_16.WidgetTree_38.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_26.WidgetTree_89.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_17.WidgetTree_40.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_152.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_18.WidgetTree_42.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_25.WidgetTree_87.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_19.WidgetTree_44.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_28.WidgetTree_147.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_20.WidgetTree_46.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_24.WidgetTree_85.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_21.WidgetTree_48.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_44.WidgetTree_161.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_22.WidgetTree_50.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_0.WidgetTree_102.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_23.WidgetTree_52.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_24:WidgetTree_4.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_35.WidgetTree_122.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_154.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_36.WidgetTree_124.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_37.WidgetTree_126.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_151.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_38.WidgetTree_128.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:HUD_C_40.WidgetTree_153.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_HUD_C_2.WidgetTree_130.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_46:WidgetTree_106.CanvasPanel_0
+[2018.01.09-19.55.46:914][606]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Border /Engine/UMG/Editor/Transient.SplashScreen).  Import failed...
+[2018.01.09-19.55.46:914][606]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2018.01.09-19.58.02:649][904]LogEditorTransaction: Undo Move Widget
+[2018.01.09-19.58.05:485][239]LogEditorTransaction: Undo Move Widget
+[2018.01.09-20.00.18:320][464]BlueprintLog: New page: Compile HUD
+[2018.01.09-20.00.18:406][464]BlueprintEditorCompileResults: Info [1447.36] Compile of HUD successful! [in 85 ms]
+[2018.01.09-20.00.19:138][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-20.00.19:162][550]LogSavePackage: Save=20.360338ms
+[2018.01.09-20.00.19:162][550]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUD9268D6294B449A8AD1DBC99487C7C940.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-20.00.19:165][550]LogSavePackage: Total save time: 26.505299ms
+[2018.01.09-20.00.19:165][550]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-20.00.53:418][203]BlueprintLog: New page: Compile HUD
+[2018.01.09-20.00.53:489][203]BlueprintEditorCompileResults: Info [1482.45] Compile of HUD successful! [in 70 ms]
+[2018.01.09-20.00.53:968][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-20.00.53:991][259]LogSavePackage: Save=19.959335ms
+[2018.01.09-20.00.53:991][259]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUD9BD5A5E04BE0D0994D5A968D63E6F8D6.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-20.00.53:992][259]LogSavePackage: Total save time: 23.553282ms
+[2018.01.09-20.00.53:992][259]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-20.09.22:410][308]BlueprintLog: New page: Compile MyPlayerController
+[2018.01.09-20.09.22:592][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000010609F996C0
+[2018.01.09-20.09.22:605][308]BlueprintEditorCompileResults: Info [1991.56] Compile of MyPlayerController successful! [in 195 ms]
+[2018.01.09-20.09.23:062][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerController" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/MyPlayerController.uasset" SILENT=true
+[2018.01.09-20.09.23:205][355]LogSavePackage: Save=135.222519ms
+[2018.01.09-20.09.23:205][355]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/MyPlayerController0B0214B047D2E4275CA5019B12C6529C.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/MyPlayerController.uasset'
+[2018.01.09-20.09.23:211][355]LogSavePackage: Total save time: 147.564083ms
+[2018.01.09-20.09.23:211][355]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/MyPlayerController.uasset
+[2018.01.09-20.10.08:679][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.10.08:680][973]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:10:08 AM)
+[2018.01.09-20.10.08:680][973]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.10.08:705][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024526s)
+[2018.01.09-20.10.08:705][973]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.10.08:706][973]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.01.09-20.10.08:706][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.025359s)
+[2018.01.09-20.10.08:732][973]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.10.08:737][973]LogInit: FAudioDevice initialized.
+[2018.01.09-20.10.08:803][973]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.10.08:816][973]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.10.08
+[2018.01.09-20.10.08:816][973]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.10.08:816][973]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.10.08:819][973]LogWorld: Bringing up level for play took: 0.012419
+[2018.01.09-20.10.08:824][973]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.71
+[2018.01.09-20.10.59:212][ 15]LogBlueprintUserMessages: [MyPlayerController_C_6] 00:36.18
+[2018.01.09-20.10.59:212][ 15]LogBlueprintUserMessages: [MyPlayerController_C_6] 00:36.18
+[2018.01.09-20.10.59:213][ 15]LogBlueprintUserMessages: [MyPlayerController_C_6] 1
+[2018.01.09-20.11.03:203][494]Cmd: RestartLevel
+[2018.01.09-20.11.03:211][495]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2018.01.09-20.11.03:211][495]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2018.01.09-20.11.03:244][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001066C428220
+[2018.01.09-20.11.03:245][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106406665C0
+[2018.01.09-20.11.03:255][495]Cmd: MEM
+[2018.01.09-20.11.03:272][495]LogMemory: Platform Memory Stats for Windows
+[2018.01.09-20.11.03:272][495]LogMemory: Process Physical Memory: 1936.45 MB used, 1936.45 MB peak
+[2018.01.09-20.11.03:272][495]LogMemory: Process Virtual Memory: 2751.67 MB used, 2752.36 MB peak
+[2018.01.09-20.11.03:272][495]LogMemory: Physical Memory: 4781.85 MB used, 16344.29 MB total
+[2018.01.09-20.11.03:272][495]LogMemory: Virtual Memory: 3563.02 MB used, 134217728.00 MB total
+[2018.01.09-20.11.03:272][495]LogMemory: 
+[2018.01.09-20.11.03:272][495]Allocator Stats for TBB: (not implemented)
+[2018.01.09-20.11.03:272][495]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.11.03:292][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019987s)
+[2018.01.09-20.11.03:292][495]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.11.03:292][495]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.01.09-20.11.03:292][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.020760s)
+[2018.01.09-20.11.03:292][495]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.11.03:303][495]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.11.03
+[2018.01.09-20.11.03:303][495]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.11.03:303][495]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.11.03:304][495]LogWorld: Bringing up level for play took: 0.008758
+[2018.01.09-20.11.20:715][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106B2B1BD80
+[2018.01.09-20.11.52:623][642]BlueprintLog: New page: Compile HUD
+[2018.01.09-20.11.52:693][642]BlueprintEditorCompileResults: Info [2141.65] Compile of HUD successful! [in 70 ms]
+[2018.01.09-20.11.53:270][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-20.11.53:293][709]LogSavePackage: Save=19.081621ms
+[2018.01.09-20.11.53:293][709]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUD5DBAF86543AC62D74F2E99BA34EFADCF.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-20.11.53:295][709]LogSavePackage: Total save time: 24.775214ms
+[2018.01.09-20.11.53:295][709]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-20.15.08:575][ 54]BlueprintLog: New page: Compile HUD
+[2018.01.09-20.15.08:642][ 54]BlueprintEditorCompileResults: Info [2337.60] Compile of HUD successful! [in 67 ms]
+[2018.01.09-20.15.09:143][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-20.15.09:165][112]LogSavePackage: Save=19.111456ms
+[2018.01.09-20.15.09:165][112]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUD7DF24C814E58C1FEE0EA279FB9733419.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-20.15.09:167][112]LogSavePackage: Total save time: 23.969360ms
+[2018.01.09-20.15.09:167][112]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-20.15.11:564][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.15.11:564][398]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:15:11 AM)
+[2018.01.09-20.15.11:564][398]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.15.11:584][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019794s)
+[2018.01.09-20.15.11:584][398]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.15.11:584][398]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2018.01.09-20.15.11:584][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.020529s)
+[2018.01.09-20.15.11:607][398]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.15.11:612][398]LogInit: FAudioDevice initialized.
+[2018.01.09-20.15.11:647][398]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.15.11:657][398]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.15.11
+[2018.01.09-20.15.11:657][398]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.15.11:657][398]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.15.11:658][398]LogWorld: Bringing up level for play took: 0.008956
+[2018.01.09-20.15.11:660][398]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.454
+[2018.01.09-20.15.14:572][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001062C9B34C0
+[2018.01.09-20.15.15:863][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.15.15:863][892]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:15:15 AM)
+[2018.01.09-20.15.15:863][892]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.15.15:882][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018581s)
+[2018.01.09-20.15.15:883][892]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.15.15:883][892]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2018.01.09-20.15.15:883][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.019243s)
+[2018.01.09-20.15.15:906][892]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.15.15:911][892]LogInit: FAudioDevice initialized.
+[2018.01.09-20.15.15:938][892]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.15.15:949][892]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.15.15
+[2018.01.09-20.15.15:949][892]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.15.15:949][892]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.15.15:949][892]LogWorld: Bringing up level for play took: 0.008882
+[2018.01.09-20.15.15:951][892]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.162
+[2018.01.09-20.15.16:897][997]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106A4E24400
+[2018.01.09-20.15.52:903][457]LogScript:Warning: Accessed None 'Controller reference'
+	VehicleBlueprint_C /Engine/Transient.World_7:PersistentLevel.VehicleBlueprint_C_2
+	Function /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint_C:ExecuteUbergraph_VehicleBlueprint:06B8
+[2018.01.09-20.18.50:052][591]BlueprintLog: New page: Compile VehicleAdvHud
+[2018.01.09-20.18.50:093][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-20.18.50:117][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001062C9B0D60
+[2018.01.09-20.18.50:123][591]BlueprintEditorCompileResults: Info [2559.08] Compile of VehicleAdvHud successful! [in 71 ms]
+[2018.01.09-20.18.50:874][674]LogSavePackage: Save=37.728233ms
+[2018.01.09-20.18.50:874][674]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/VehicleAdvHud8C463AA444CA4D6380259DB703E970A8.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset'
+[2018.01.09-20.18.50:876][674]LogSavePackage: Total save time: 44.322640ms
+[2018.01.09-20.18.50:876][674]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset
+[2018.01.09-20.19.05:317][212]BlueprintLog: New page: Compile VehicleAdvHud
+[2018.01.09-20.19.05:375][212]BlueprintEditorCompileResults: Info [2574.33] Compile of VehicleAdvHud successful! [in 58 ms]
+[2018.01.09-20.19.06:024][283]LogSavePackage: Save=37.388184ms
+[2018.01.09-20.19.06:024][283]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/VehicleAdvHud6898083F482191ACBF92FFA563B2AC32.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset'
+[2018.01.09-20.19.06:025][283]LogSavePackage: Total save time: 41.568875ms
+[2018.01.09-20.19.06:025][283]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset
+[2018.01.09-20.19.07:989][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.19.07:990][517]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:19:07 AM)
+[2018.01.09-20.19.07:990][517]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.19.08:009][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019560s)
+[2018.01.09-20.19.08:010][517]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.19.08:010][517]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2018.01.09-20.19.08:010][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.020369s)
+[2018.01.09-20.19.08:034][517]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.19.08:039][517]LogInit: FAudioDevice initialized.
+[2018.01.09-20.19.08:072][517]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.19.08:083][517]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.19.08
+[2018.01.09-20.19.08:083][517]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.19.08:083][517]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.19.08:083][517]LogWorld: Bringing up level for play took: 0.008873
+[2018.01.09-20.19.08:086][517]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.028
+[2018.01.09-20.19.09:589][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106C9949DA0
+[2018.01.09-20.29.13:414][705]BlueprintLog: New page: Compile VehicleBlueprint
+[2018.01.09-20.29.13:559][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-20.29.13:594][705]BlueprintEditorCompileResults: Info [3182.55] Compile of VehicleBlueprint successful! [in 179 ms]
+[2018.01.09-20.29.14:296][765]LogSavePackage: Save=135.568665ms
+[2018.01.09-20.29.14:296][765]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/VehicleBlueprintE78D3A934E44523001AAB88E47FA478B.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2018.01.09-20.29.14:298][765]LogSavePackage: Total save time: 144.427285ms
+[2018.01.09-20.29.14:298][765]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2018.01.09-20.29.22:748][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.29.22:748][348]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:29:22 AM)
+[2018.01.09-20.29.22:748][348]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.29.22:768][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019745s)
+[2018.01.09-20.29.22:768][348]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.29.22:768][348]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2018.01.09-20.29.22:768][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.020533s)
+[2018.01.09-20.29.22:768][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-20.29.22:793][348]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.29.22:799][348]LogInit: FAudioDevice initialized.
+[2018.01.09-20.29.22:829][348]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.29.22:840][348]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.29.22
+[2018.01.09-20.29.22:840][348]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.29.22:840][348]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.29.22:841][348]LogWorld: Bringing up level for play took: 0.009102
+[2018.01.09-20.29.22:843][348]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.729
+[2018.01.09-20.29.24:041][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106CFF042C0
+[2018.01.09-20.29.30:828][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.29.30:828][294]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:29:30 AM)
+[2018.01.09-20.29.30:828][294]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.29.30:847][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018881s)
+[2018.01.09-20.29.30:847][294]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.29.30:847][294]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2018.01.09-20.29.30:847][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.019573s)
+[2018.01.09-20.29.30:847][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-20.29.30:871][294]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.29.30:878][294]LogInit: FAudioDevice initialized.
+[2018.01.09-20.29.30:905][294]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.29.30:917][294]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.29.30
+[2018.01.09-20.29.30:917][294]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.29.30:917][294]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.29.30:917][294]LogWorld: Bringing up level for play took: 0.008960
+[2018.01.09-20.29.30:919][294]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.805
+[2018.01.09-20.30.08:290][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106E4C607C0
+[2018.01.09-20.31.16:919][470]LogScript:Warning: Accessed None 'Controller reference'
+	VehicleBlueprint_C /Engine/Transient.World_11:PersistentLevel.VehicleBlueprint_C_3
+	Function /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint_C:ExecuteUbergraph_VehicleBlueprint:06F8
+[2018.01.09-20.31.16:919][470]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.09-20.31.18:537][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.09-20.31.53:706][649]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_0.WidgetTree_248.CanvasPanel_0
+[2018.01.09-20.31.53:706][649]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_252.CanvasPanel_0
+[2018.01.09-20.31.53:707][649]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_1.WidgetTree_254.CanvasPanel_0
+[2018.01.09-20.31.53:707][649]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_253.CanvasPanel_0
+[2018.01.09-20.31.53:707][649]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.GameHUD).  Import failed...
+[2018.01.09-20.31.53:707][649]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2018.01.09-20.33.27:814][297]LogEditorTransaction: Undo Move Widget
+[2018.01.09-20.33.45:945][462]LogEditorTransaction: Undo Move Widget
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_284.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_18.WidgetTree_283.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_270.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_282.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_280.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_12.WidgetTree_271.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_16.WidgetTree_279.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_10.WidgetTree_267.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_272.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_15.WidgetTree_277.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_19.WidgetTree_285.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_268.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_13.WidgetTree_273.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_274.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_14.WidgetTree_275.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_276.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_278.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_17.WidgetTree_281.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_266.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_9.WidgetTree_265.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_8.WidgetTree_263.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_264.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_0.WidgetTree_248.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_260.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_262.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_252.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_1.WidgetTree_254.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_11.WidgetTree_269.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree_253.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:HUD_C_7.WidgetTree_261.CanvasPanel_0
+[2018.01.09-20.35.01:319][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1496) from referencer (Border /Engine/UMG/Editor/Transient.LapRecord).  Import failed...
+[2018.01.09-20.35.01:319][450]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1496''
+[2018.01.09-20.35.27:824][383]LogEditorTransaction: Undo Move Widget
+[2018.01.09-20.37.04:308][220]BlueprintLog: New page: Compile HUD
+[2018.01.09-20.37.04:378][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001065FDBEFC0
+[2018.01.09-20.37.04:378][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106AA648AE0
+[2018.01.09-20.37.04:397][220]BlueprintEditorCompileResults: Info [3653.35] Compile of HUD successful! [in 88 ms]
+[2018.01.09-20.37.04:756][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2018.01.09-20.37.04:783][261]LogSavePackage: Save=22.371124ms
+[2018.01.09-20.37.04:783][261]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/HUD55D0CE8144C7BEAED65A7DA05C72D711.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset'
+[2018.01.09-20.37.04:785][261]LogSavePackage: Total save time: 28.074339ms
+[2018.01.09-20.37.04:785][261]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/Blueprints/UI/HUD.uasset
+[2018.01.09-20.37.23:217][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.37.23:217][301]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:37:23 AM)
+[2018.01.09-20.37.23:217][301]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.37.23:236][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019239s)
+[2018.01.09-20.37.23:237][301]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.37.23:237][301]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2018.01.09-20.37.23:237][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.019979s)
+[2018.01.09-20.37.23:237][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-20.37.23:260][301]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.37.23:266][301]LogInit: FAudioDevice initialized.
+[2018.01.09-20.37.23:296][301]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.37.23:308][301]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.37.23
+[2018.01.09-20.37.23:308][301]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.37.23:308][301]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.37.23:309][301]LogWorld: Bringing up level for play took: 0.009088
+[2018.01.09-20.37.23:311][301]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.803
+[2018.01.09-20.37.45:609][968]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106D0AB1800
+[2018.01.09-20.37.46:962][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.09-20.37.46:963][128]PIE: New page: PIE session: LooptyLoopMap (Jan 9, 2018, 4:37:46 AM)
+[2018.01.09-20.37.46:963][128]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.37.46:982][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019188s)
+[2018.01.09-20.37.46:982][128]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.37.46:982][128]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2018.01.09-20.37.46:982][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.019876s)
+[2018.01.09-20.37.47:005][128]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.09-20.37.47:017][128]LogInit: FAudioDevice initialized.
+[2018.01.09-20.37.47:044][128]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.37.47:056][128]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.37.47
+[2018.01.09-20.37.47:056][128]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.37.47:056][128]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.37.47:057][128]LogWorld: Bringing up level for play took: 0.009271
+[2018.01.09-20.37.47:059][128]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.945
+[2018.01.09-20.38.19:396][  6]LogBlueprintUserMessages: [MyPlayerController_C_7] 00:24.61
+[2018.01.09-20.38.19:396][  6]LogBlueprintUserMessages: [MyPlayerController_C_7] 00:24.61
+[2018.01.09-20.38.19:396][  6]LogBlueprintUserMessages: [MyPlayerController_C_7] 1
+[2018.01.09-20.38.23:387][485]Cmd: RestartLevel
+[2018.01.09-20.38.23:395][486]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2018.01.09-20.38.23:395][486]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2018.01.09-20.38.23:397][486]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.09-20.38.23:419][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000106BFAE3F60
+[2018.01.09-20.38.23:424][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001062D92D940
+[2018.01.09-20.38.23:424][486]Cmd: MEM
+[2018.01.09-20.38.23:440][486]LogMemory: Platform Memory Stats for Windows
+[2018.01.09-20.38.23:440][486]LogMemory: Process Physical Memory: 2622.74 MB used, 2622.75 MB peak
+[2018.01.09-20.38.23:440][486]LogMemory: Process Virtual Memory: 3616.34 MB used, 3797.23 MB peak
+[2018.01.09-20.38.23:440][486]LogMemory: Physical Memory: 5631.96 MB used, 16344.29 MB total
+[2018.01.09-20.38.23:440][486]LogMemory: Virtual Memory: 4548.13 MB used, 134217728.00 MB total
+[2018.01.09-20.38.23:440][486]LogMemory: 
+[2018.01.09-20.38.23:440][486]Allocator Stats for TBB: (not implemented)
+[2018.01.09-20.38.23:440][486]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2018.01.09-20.38.23:460][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019304s)
+[2018.01.09-20.38.23:460][486]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2018.01.09-20.38.23:460][486]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2018.01.09-20.38.23:461][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.019958s)
+[2018.01.09-20.38.23:461][486]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2018.01.09-20.38.23:471][486]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2018.01.09-12.38.23
+[2018.01.09-20.38.23:471][486]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.38.23:472][486]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.09-20.38.23:472][486]LogWorld: Bringing up level for play took: 0.008945
+[2018.01.09-20.40.30:606][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001062D92FEC0
+[2018.01.09-20.40.37:048][549]LogSavePackage: Save=671.237000ms
+[2018.01.09-20.40.37:048][549]LogSavePackage: Moving '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Saved/LooptyLoopMap06D164364ABD5501226DE0917385090E.tmp' to '../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2018.01.09-20.40.37:051][549]LogSavePackage: Total save time: 703.508418ms
+[2018.01.09-20.40.37:051][549]LogSavePackage:Display: Finished SavePackage ../../../../../Users/dmitri/Documents/Unreal Projects/TP_Voiture_02/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2018.01.09-20.40.37:810][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-21.08.01:444][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2018.01.09-21.08.01:699][829]Cmd: QUIT_EDITOR
+[2018.01.09-21.08.02:470][829]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.09-21.08.02:517][829]LogExit: Preparing to exit.
+[2018.01.09-21.08.02:683][829]LogExit: Editor shut down
+[2018.01.09-21.08.02:683][829]LogExit: Transaction tracking system shut down
+[2018.01.09-21.08.02:686][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001066C81F880
+[2018.01.09-21.08.02:686][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000010670DE9300
+[2018.01.09-21.08.02:687][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001066C6C0FE0
+[2018.01.09-21.08.02:690][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001062CEE0540
+[2018.01.09-21.08.02:690][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001062C2904A0
+[2018.01.09-21.08.02:690][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000010684877B00
+[2018.01.09-21.08.02:808][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000010684875940
+[2018.01.09-21.08.02:808][829]LogExit: Object subsystem successfully closed.
+[2018.01.09-21.08.02:822][829]LogD3D11RHI: Shutdown
+[2018.01.09-21.08.02:822][829]LogD3D11RHI: CleanupD3DDevice
+[2018.01.09-21.08.02:865][829]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2018.01.09-21.08.02:877][829]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2018.01.09-21.08.02:878][829]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2018.01.09-21.08.03:280][829]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2018.01.09-21.08.03:281][829]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2018.01.09-21.08.03:531][829]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2018.01.09-21.08.03:543][829]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2018.01.09-21.08.03:544][829]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2018.01.09-21.08.03:544][829]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2018.01.09-21.08.03:567][829]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2018.01.09-21.08.03:567][829]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2018.01.09-21.08.03:567][829]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2018.01.09-21.08.03:668][829]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2018.01.09-21.08.03:668][829]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2018.01.09-21.08.03:668][829]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2018.01.09-21.08.03:669][829]LogModuleManager: Shutting down and abandoning module Media (82)
+[2018.01.09-21.08.03:669][829]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2018.01.09-21.08.03:670][829]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module Core (60)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2018.01.09-21.08.03:672][829]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2018.01.09-21.08.03:699][829]LogDerivedDataCache: Shutdown
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2018.01.09-21.08.03:699][829]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2018.01.09-21.08.04:700][829]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2018.01.09-21.08.04:701][829]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2018.01.09-21.08.04:701][829]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2018.01.09-21.08.04:701][829]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2018.01.09-21.08.04:701][829]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2018.01.09-21.08.04:702][829]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2018.01.09-21.08.04:702][829]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2018.01.09-21.08.04:702][829]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2018.01.09-21.08.04:702][829]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2018.01.09-21.08.04:702][829]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2018.01.09-21.08.04:702][829]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2018.01.09-21.08.04:703][829]LogExit: Exiting.
+[2018.01.09-21.08.04:704][829]Log file closed, 01/09/18 13:08:04
